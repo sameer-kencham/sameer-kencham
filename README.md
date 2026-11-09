@@ -1,6 +1,18 @@
-# Hi, I'm Sameer 👋
+<div align="center">
 
-### Software Engineer | .NET · Node.js · Angular · TypeScript · SQL · Applied AI
+<img src="assets/terminal-profile.svg" alt="A custom terminal-style introduction to Sameer Kencham: software engineering, backend APIs, database skills, and chess AI research" width="100%" />
+
+### Software Engineer · Enterprise Systems · Applied AI Research
+
+**Angular / TypeScript** · **.NET / ASP.NET Core** · **Node.js / Express** · **SQL / Databases** · **Python / Chess AI**
+
+[**Portfolio ↗**](https://sameer-kencham.github.io/) &nbsp; · &nbsp; [**Chess AI research ♞**](https://sameer-kencham.github.io/chess-ai.html) &nbsp; · &nbsp; [**Email ✉**](mailto:sameerkenchem@gmail.com)
+
+</div>
+
+---
+
+## About me
 
 I'm **Sameer Bharadwaj Kencham**, a software engineer with **9+ years of experience** building and maintaining enterprise applications in pharmacy operations, distribution, and aviation.
 
