@@ -1,0 +1,33 @@
+name: Update career experience
+
+on:
+  schedule:
+    # Daily morning refresh (UTC); the script displays America/New_York dates.
+    - cron: '17 11 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-experience:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Update the experience section
+        run: python3 scripts/update_career_span.py
+
+      - name: Commit the new date if changed
+        shell: bash
+        run: |
+          if ! git diff --quiet -- README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: refresh career span"
+            git push
+          else
+            echo "No experience update needed."
+          fi
