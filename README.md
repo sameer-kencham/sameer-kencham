@@ -65,6 +65,17 @@ The project is still in development. Its model weights, private training files, 
 
 I'm preparing original demos and sanitized engineering case studies. Professional systems described above are private employer/client projects; their source code is **not** public here.
 
+### 🎮 Beyond the code
+
+I enjoy projects where curiosity turns into something I can actually build or experiment with:
+
+- **♟️ Chess & strategy:** Exploring chess positions and training my own chess-playing AI models.
+- **🎮 Gaming & sim racing:** Enjoying games and tweaking settings to get the best experience.
+- **🖥️ PC hardware & performance:** Tinkering with GPUs, displays, cooling/performance settings, and local AI setups.
+- **🏠 Home lab & self-hosting:** Running a Mac mini server, media streaming, remote access, and connected devices.
+
+A lot of my side projects start with **"what happens if I build it myself?"**
+
 ### 🤝 Connect
 
 - [Portfolio website](https://sameer-kencham.github.io/)
