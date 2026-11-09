@@ -1,52 +1,68 @@
 #!/usr/bin/env python3
-"""Update the README career-span block from the month/year dates in the resume.
+"""Refresh the GitHub profile's calendar-accurate career-span display.
 
-Experience starts in January 2017. Because the resume does not give a start day,
-we calculate completed calendar months and display today's date, not invented
-day-level tenure. Timezone is America/New_York.
+The assumed start day (2017-01-10) was provided as an estimate, not a verified
+employment record. Role dates in the resume are only recorded by month/year.
+The displayed date uses America/New_York.
 """
 from __future__ import annotations
 
 import re
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-CAREER_START_YEAR = 2017
-CAREER_START_MONTH = 1
+ESTIMATED_CAREER_START = date(2017, 1, 10)
 START_MARKER = "<!-- CAREER-SPAN:START -->"
 END_MARKER = "<!-- CAREER-SPAN:END -->"
 
 
-def career_span(today):
-    months = max(0, (today.year - CAREER_START_YEAR) * 12 + today.month - CAREER_START_MONTH)
-    years, remaining_months = divmod(months, 12)
-    parts = []
-    if years:
-        parts.append(f"{years} year{'s' if years != 1 else ''}")
-    if remaining_months or not parts:
-        parts.append(f"{remaining_months} month{'s' if remaining_months != 1 else ''}")
-    return ", ".join(parts)
+def career_span(today: date) -> str:
+    if today < ESTIMATED_CAREER_START:
+        return "0 years, 0 months, 0 days"
+    total_months = (
+        (today.year - ESTIMATED_CAREER_START.year) * 12
+        + today.month - ESTIMATED_CAREER_START.month
+    )
+    if today.day < ESTIMATED_CAREER_START.day:
+        total_months -= 1
+    years, months = divmod(total_months, 12)
+    anniversary = date(
+        ESTIMATED_CAREER_START.year + total_months // 12,
+        (ESTIMATED_CAREER_START.month - 1 + total_months) % 12 + 1,
+        ESTIMATED_CAREER_START.day,
+    )
+    days = (today - anniversary).days
+    return (
+        f"{years} year{'s' if years != 1 else ''}, "
+        f"{months} month{'s' if months != 1 else ''}, "
+        f"{days} day{'s' if days != 1 else ''}"
+    )
 
 
-def main():
+def main() -> None:
     today = datetime.now(ZoneInfo("America/New_York")).date()
     date_label = f"{today.strftime('%B')} {today.day}, {today.year}"
     block = (
         f"{START_MARKER}\n"
-        f"**Career span:** **{career_span(today)}** since **January 2017**"
-        f" · updated **{date_label}** (resume records months and years, not exact days).\n"
+        f"**Career span:** **{career_span(today)}**"
+        f" · estimated start **January 10, 2017**"
+        f" · updated **{date_label}**"
+        f" (start day is an estimate, not a verified employment record).\n"
         f"{END_MARKER}"
     )
     readme = Path(__file__).resolve().parent.parent / "README.md"
     text = readme.read_text(encoding="utf-8")
-    pattern = re.compile(re.escape(START_MARKER) + r".*?" + re.escape(END_MARKER), re.DOTALL)
+    pattern = re.compile(
+        re.escape(START_MARKER) + r".*?" + re.escape(END_MARKER),
+        re.DOTALL,
+    )
     if len(pattern.findall(text)) != 1:
         raise SystemExit("Expected exactly one career-span marker pair in README.md")
-    updated = pattern.sub(lambda _match: block, text, count=1)
+    updated = pattern.sub(lambda _: block, text, count=1)
     if updated != text:
         readme.write_text(updated, encoding="utf-8")
-        print(f"Updated career span: {career_span(today)}, as of {date_label}")
+        print(f"Updated career span: {career_span(today)} (as of {date_label})")
     else:
         print("README career span is already current")
 
