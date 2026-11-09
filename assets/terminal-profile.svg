@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="520" viewBox="0 0 1180 520" role="img" aria-labelledby="title desc">
-<title id="title">Sameer Kencham — Software Engineer and Chess AI Research</title><desc id="desc">A bespoke neofetch-style terminal card. Left: a chess knight on a board. Right: Sameer's enterprise engineering stack, independent chess AI research, and a clearly labeled local benchmark.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="595" viewBox="0 0 1180 595" role="img" aria-labelledby="title desc">
+<title id="title">Sameer Kencham — Software Engineer and Chess AI Research</title><desc id="desc">A bespoke neofetch-style terminal card. Left: a chess knight on a board. Right: Sameer's enterprise engineering stack, independent chess AI research, hobbies including gaming, sim racing, hardware tinkering and homelab projects, and a clearly labeled local benchmark.</desc>
 <defs>
   <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111d2d"/><stop offset=".65" stop-color="#101827"/><stop offset="1" stop-color="#11283a"/></linearGradient>
   <linearGradient id="horse" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8de0c3"/><stop offset="1" stop-color="#9cbbff"/></linearGradient>
   <radialGradient id="glow"><stop stop-color="#2c6a68" stop-opacity=".45"/><stop offset="1" stop-color="#0b1320" stop-opacity="0"/></radialGradient>
-  <clipPath id="clip"><rect x="2" y="2" width="1176" height="516" rx="19"/></clipPath>
+  <clipPath id="clip"><rect x="2" y="2" width="1176" height="591" rx="19"/></clipPath>
   <filter id="blur"><feGaussianBlur stdDeviation="25"/></filter>
 </defs>
-<rect x="1.5" y="1.5" width="1177" height="517" rx="20" fill="url(#shell)" stroke="#3a5268" stroke-width="2"/>
-<g clip-path="url(#clip)"><ellipse cx="265" cy="280" rx="300" ry="260" fill="url(#glow)"/><path d="M 504 65 L 504 490" stroke="#34475b" stroke-width="1"/><rect x="2" y="2" width="1176" height="55" fill="#0a121f" opacity=".95"/></g>
+<rect x="1.5" y="1.5" width="1177" height="592" rx="20" fill="url(#shell)" stroke="#3a5268" stroke-width="2"/>
+<g clip-path="url(#clip)"><ellipse cx="265" cy="280" rx="300" ry="260" fill="url(#glow)"/><path d="M 504 65 L 504 575" stroke="#34475b" stroke-width="1"/><rect x="2" y="2" width="1176" height="55" fill="#0a121f" opacity=".95"/></g>
 <circle cx="31" cy="30" r="7" fill="#fb7185"/><circle cx="55" cy="30" r="7" fill="#f7c66c"/><circle cx="79" cy="30" r="7" fill="#8de0c3"/>
 <text x="104" y="37" font-size="16" fill="#b6c9d9" font-family="DejaVu Sans Mono, Consolas, monospace">sameer@workstation:~/portfolio</text>
 <text x="1047" y="37" font-size="14" fill="#8de0c3" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">● ONLINE</text>
@@ -109,6 +109,13 @@
 <text x="545" y="423" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Benchmark  </text>
 <text x="690" y="423" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
 <text x="714" y="423" font-size="17" fill="#8de0c3" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="700">79.25% · local PUCT vs raw</text>
-<line x1="545" x2="1110" y1="458" y2="458" stroke="#2f4d60"/>
-<text x="546" y="483" font-size="13" fill="#95aabd" font-family="DejaVu Sans Mono, Consolas, monospace">* PostgreSQL: expanding skills · benchmark: local experiment, not Elo</text>
+<text x="545" y="460" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Hobbies    </text>
+<text x="690" y="460" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
+<text x="714" y="460" font-size="17" fill="#dbe8f4" font-family="DejaVu Sans Mono, Consolas, monospace">Chess / gaming / sim racing</text>
+<text x="545" y="497" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Tinkering  </text>
+<text x="690" y="497" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
+<text x="714" y="497" font-size="17" fill="#dbe8f4" font-family="DejaVu Sans Mono, Consolas, monospace">PC hardware / homelab</text>
+<line x1="545" x2="1110" y1="532" y2="532" stroke="#2f4d60"/>
+<text x="546" y="558" font-size="13" fill="#95aabd" font-family="DejaVu Sans Mono, Consolas, monospace">* PostgreSQL: expanding skills · benchmark: local experiment, not Elo</text>
+<text x="72" y="518" font-size="15" fill="#8de0c3" font-family="DejaVu Sans Mono, Consolas, monospace">after hours: games + gadgets</text>
 </svg>
