@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="520" viewBox="0 0 1180 520" role="img" aria-labelledby="title desc">
+<title id="title">Sameer Kencham — Software Engineer and Chess AI Research</title><desc id="desc">A bespoke neofetch-style terminal card. Left: a chess knight on a board. Right: Sameer's enterprise engineering stack, independent chess AI research, and a clearly labeled local benchmark.</desc>
+<defs>
+  <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111d2d"/><stop offset=".65" stop-color="#101827"/><stop offset="1" stop-color="#11283a"/></linearGradient>
+  <linearGradient id="horse" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8de0c3"/><stop offset="1" stop-color="#9cbbff"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#2c6a68" stop-opacity=".45"/><stop offset="1" stop-color="#0b1320" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip"><rect x="2" y="2" width="1176" height="516" rx="19"/></clipPath>
+  <filter id="blur"><feGaussianBlur stdDeviation="25"/></filter>
+</defs>
+<rect x="1.5" y="1.5" width="1177" height="517" rx="20" fill="url(#shell)" stroke="#3a5268" stroke-width="2"/>
+<g clip-path="url(#clip)"><ellipse cx="265" cy="280" rx="300" ry="260" fill="url(#glow)"/><path d="M 504 65 L 504 490" stroke="#34475b" stroke-width="1"/><rect x="2" y="2" width="1176" height="55" fill="#0a121f" opacity=".95"/></g>
+<circle cx="31" cy="30" r="7" fill="#fb7185"/><circle cx="55" cy="30" r="7" fill="#f7c66c"/><circle cx="79" cy="30" r="7" fill="#8de0c3"/>
+<text x="104" y="37" font-size="16" fill="#b6c9d9" font-family="DejaVu Sans Mono, Consolas, monospace">sameer@workstation:~/portfolio</text>
+<text x="1047" y="37" font-size="14" fill="#8de0c3" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">● ONLINE</text>
+<text x="54" y="98" font-size="18" fill="#8de0c3" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">$ ./identify --engine chess-v6</text>
+<rect x="73" y="119" width="369" height="323" rx="14" fill="#0b1725" stroke="#2e4a5e"/>
+<rect x="95" y="128" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="135" y="128" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="175" y="128" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="215" y="128" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="255" y="128" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="295" y="128" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="335" y="128" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="375" y="128" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="95" y="166" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="135" y="166" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="175" y="166" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="215" y="166" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="255" y="166" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="295" y="166" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="335" y="166" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="375" y="166" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="95" y="204" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="135" y="204" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="175" y="204" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="215" y="204" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="255" y="204" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="295" y="204" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="335" y="204" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="375" y="204" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="95" y="242" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="135" y="242" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="175" y="242" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="215" y="242" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="255" y="242" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="295" y="242" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="335" y="242" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="375" y="242" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="95" y="280" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="135" y="280" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="175" y="280" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="215" y="280" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="255" y="280" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="295" y="280" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="335" y="280" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="375" y="280" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="95" y="318" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="135" y="318" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="175" y="318" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="215" y="318" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="255" y="318" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="295" y="318" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="335" y="318" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="375" y="318" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="95" y="356" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="135" y="356" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="175" y="356" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="215" y="356" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="255" y="356" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="295" y="356" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="335" y="356" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="375" y="356" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="95" y="394" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="135" y="394" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="175" y="394" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="215" y="394" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="255" y="394" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="295" y="394" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<rect x="335" y="394" width="40" height="38" fill="#3a6070" opacity=".46"/>
+<rect x="375" y="394" width="40" height="38" fill="#d0e2d8" opacity=".17"/>
+<circle cx="251" cy="274" r="123" fill="#0d2533" opacity=".54" filter="url(#blur)"/>
+<text x="252" y="355" font-size="247" fill="url(#horse)" font-family="DejaVu Sans, Segoe UI Symbol, Noto Sans Symbols 2, serif" text-anchor="middle" stroke="#05222c" stroke-width="4" paint-order="stroke">♞</text>
+<rect x="93" y="389" width="330" height="38" rx="7" fill="#0b1626" opacity=".9"/>
+<text x="113" y="414" font-size="16" fill="#b2e3d6" font-family="DejaVu Sans Mono, Consolas, monospace">train  →  search  →  evaluate</text>
+<text x="72" y="473" font-size="14" fill="#8da7bc" font-family="DejaVu Sans Mono, Consolas, monospace">PERSONAL PROJECT    //    EXPERIMENTAL</text>
+<text x="545" y="112" font-size="29" fill="#a6e6d2" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="700">sameer@software-engineer</text>
+<line x1="545" x2="1110" y1="131" y2="131" stroke="#436a71" stroke-width="2"/>
+<text x="545" y="164" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Role       </text>
+<text x="690" y="164" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
+<text x="714" y="164" font-size="17" fill="#dbe8f4" font-family="DejaVu Sans Mono, Consolas, monospace" >Software Engineer</text>
+<text x="545" y="201" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Experience </text>
+<text x="690" y="201" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
+<text x="714" y="201" font-size="17" fill="#dbe8f4" font-family="DejaVu Sans Mono, Consolas, monospace" >9+ years · enterprise systems</text>
+<text x="545" y="238" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Frontend   </text>
+<text x="690" y="238" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
+<text x="714" y="238" font-size="17" fill="#dbe8f4" font-family="DejaVu Sans Mono, Consolas, monospace" >Angular / TypeScript / RxJS</text>
+<text x="545" y="275" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Services   </text>
+<text x="690" y="275" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
+<text x="714" y="275" font-size="17" fill="#dbe8f4" font-family="DejaVu Sans Mono, Consolas, monospace" >ASP.NET Core APIs / Node.js</text>
+<text x="545" y="312" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Data       </text>
+<text x="690" y="312" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
+<text x="714" y="312" font-size="17" fill="#dbe8f4" font-family="DejaVu Sans Mono, Consolas, monospace" >SQL / Oracle / PostgreSQL*</text>
+<text x="545" y="349" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Research   </text>
+<text x="690" y="349" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
+<text x="714" y="349" font-size="17" fill="#dbe8f4" font-family="DejaVu Sans Mono, Consolas, monospace" >Chess transformer / PUCT</text>
+<text x="545" y="386" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Hardware   </text>
+<text x="690" y="386" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
+<text x="714" y="386" font-size="17" fill="#dbe8f4" font-family="DejaVu Sans Mono, Consolas, monospace" >RTX 4090 · GPU evaluation</text>
+<text x="545" y="423" font-size="17" fill="#f1b885" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="600">Benchmark  </text>
+<text x="690" y="423" font-size="17" fill="#7d91a8" font-family="DejaVu Sans Mono, Consolas, monospace">:</text>
+<text x="714" y="423" font-size="17" fill="#8de0c3" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="700">79.25% · local PUCT vs raw</text>
+<line x1="545" x2="1110" y1="458" y2="458" stroke="#2f4d60"/>
+<text x="546" y="483" font-size="13" fill="#95aabd" font-family="DejaVu Sans Mono, Consolas, monospace">* PostgreSQL: expanding skills · benchmark: local experiment, not Elo</text>
+</svg>
