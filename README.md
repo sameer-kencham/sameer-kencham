@@ -17,7 +17,7 @@
 I'm **Sameer Bharadwaj Kencham**, a software engineer building and maintaining enterprise applications in pharmacy operations, distribution, and aviation.
 
 <!-- CAREER-SPAN:START -->
-**Career span:** **9 years, 10 months, 0 days** · estimated start **January 10, 2017** · updated **November 10, 2026** (start day is an estimate, not a verified employment record).
+**Career span:** **9 years, 10 months, 1 day** · estimated start **January 10, 2017** · updated **November 11, 2026** (start day is an estimate, not a verified employment record).
 <!-- CAREER-SPAN:END -->
 
 My background is strongest in **Angular, TypeScript, RxJS, and NgRx**, and my work also spans **C#/.NET APIs, Node.js/Express, REST integration, and relational databases**. I'm actively developing deeper expertise in **PostgreSQL, SQL, and query optimization**. Outside of enterprise development, I also design, train, and evaluate **chess-playing AI models** as an independent research project.
